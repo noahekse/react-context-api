@@ -15,7 +15,6 @@ function App() {
   });
 
   useEffect(() => {
-    localStorage.setItem("theme", theme);
     theme === "light"
       ? (document.body.style.backgroundColor = "white")
       : (document.body.style.backgroundColor = "black");
